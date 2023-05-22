@@ -1,0 +1,106 @@
+body{
+    background-image: url(imagens/cenario\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: play;
+    src: url(fonts/Games.ttf);
+}
+#caixa{
+    width: 1200px;
+    border-radius: 15px;
+    height: 350px;
+    box-shadow: 10px 5px 10px #000000;
+    position: relative;
+    top: 150px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.titulo h1{
+    padding-top: -80px;
+ font-size: 90px;
+color: #7843E6;
+text-shadow: 3px 2px 1px #01343d;
+font-family: 'play', Arial, sans-serif;
+text-shadow: 5px 10px 10px #B05AD3;
+}
+
+.bt1 a{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #FF659E;
+    box-shadow: 5px 5px 5px #000000;
+    color: #B05AD3;
+    text-decoration: none;
+    border: 1px solid black;
+    text-shadow: 1px 2px 1px #000000;
+    
+    border-radius: 15px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    font-family: 'play', Arial, sans-serif;
+    transition: 0.20s;
+ 
+}
+.bt1{
+    margin-bottom: 50px; 
+}
+.bt2 a{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #FF659E;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #000000;
+    color: #B05AD3;
+    text-decoration: none;
+    text-shadow: 1px 2px 1px #000000;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    font-family: 'play', Arial, sans-serif;
+    transition: 0.20s;
+}
+.bt3{
+    margin-top: 50px;
+}
+.bt3 a{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #FF659E;
+    box-shadow: 5px 5px 5px #000000;
+    color: #B05AD3;
+    text-decoration: none;
+    border: 1px solid black;
+    text-shadow: 1px 2px 1px #000000;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    font-family: 'play', Arial, sans-serif;
+    transition: 0.20s;
+ 
+}
+.bt1 a:hover{
+background-color: #2E1B5B;
+color: #5FF4FF;
+}
+.bt2 a:hover{
+    background-color: #2E1B5B;
+    color: #5FF4FF;
+    }
+
+    .bt3 a:hover{
+        background-color: #2E1B5B;
+        color: #5FF4FF;
+        }

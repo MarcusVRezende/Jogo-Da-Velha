@@ -1,0 +1,133 @@
+body {
+    background-image: url(imagens/cenario\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: play;
+    src: url(fonts/Games.ttf);
+}
+#box{
+    width: 1400px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px #000000;
+    position: relative;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+}
+#jogo {
+    width: 603px;
+    height: 600px;
+    position: relative;
+    top: -100px;
+border: 1px solid black;
+margin: 0 auto;
+}
+
+.linha {
+    height: 200px;
+    border-bottom: solid 1px;
+}
+
+.casa {
+    width: 200px;
+    height: 100%;
+    border-right: solid 1px;
+    float: left;
+}
+
+h1 {
+    display: inline;
+    margin-left: 30px;
+}
+
+.titulo {
+    padding-top: 10px;
+    font-size: 35px;
+    color: #7843E6;
+    text-shadow: 3px 2px 1px #01343d;
+    font-family: 'play', Arial, sans-serif;
+   text-align: center;
+}
+  #resultado.exibido {
+    border-radius: 15px;
+    box-shadow: 5px 10px 5px #000000;
+    top: -600px;
+    left: 300px;
+    position: relative;
+    width: 750px;
+    height: 350px;
+    background-color: #111111;
+    text-align: center;
+  }
+  #resultado.exibido h1{
+    font-size: 35px;
+    color: #7843E6;
+    font-family: 'play', Arial, sans-serif;
+    position: relative;
+    top: 40px;
+    font-size: 40px;
+  }
+  #resultado.exibido h2 {
+    position: relative;
+   top: 100px;
+   font-size: 30px;
+   left: 15px;
+   color: white;
+  }
+  #resultado.exibido button{
+    position: relative;
+    top: 120px;
+    left: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: transparent ;
+    border: 3px solid #7843E6;
+    color: #7843E6;
+    transition: 0.25s;
+  }
+  #resultado.exibido button:hover{
+  background-color: #7843E6;
+  border: 3px solid black;
+  color: black;
+  }
+#placar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+#placar h3 {
+margin: 0 auto;
+font-size: 30px;
+
+}
+
+#placar h1  {
+    display: inline;
+    position: relative;
+    color: #ffffff;
+text-shadow: 2px 2px 2px 2px solid black;
+}
+#placar h2{
+    color: #ffffff;
+    text-shadow: 2px 2px 2px 2px solid black;
+    font-size: 30px;
+    color: #ffffff;
+    display: inline;
+    position: relative;
+    margin-left: 1100px;
+    top: 80px;
+}
+#limparplacar{
+    color: white;
+    width: 200px;
+    height: 25px;
+    background-color: transparent;
+    position: relative;
+    left: 43%;
+    top: 550px;
+}

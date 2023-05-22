@@ -1,0 +1,59 @@
+body{
+    background-image: url(imagens/cenario\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#box{
+margin: 0 auto;
+width: 1000px;
+height: 650px;
+backdrop-filter: blur(10px);
+margin-top: 3%;
+border-radius: 15px;
+display: flex;
+}
+.caixadetexto{
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #141414;
+  color: white;
+  margin-top: 4%;
+  border-radius: 15px;
+  border: 3px solid #B05AD3;
+}
+.texto h1{
+    text-align: center;
+    color: #5FF4FF;
+   text-shadow: 2px 2px #B05AD3;
+}
+.texto li{
+color: #ffffff;
+text-shadow: 1px 1px #5FF4FF;
+text-align: center;
+font-size: 30px;
+padding-bottom: 55px ;
+list-style: none;
+}
+.texto button{
+margin-left: 40%;
+margin-right: 50%;
+width: 250px;
+height: 30px;
+background-color: transparent;
+border-radius: 15px;
+border: 1px solid #5FF4FF;
+transition: 0.55s;
+}
+.texto button{
+    color: white;
+    text-decoration: none;
+}
+.texto button:hover{
+ background-color: #5FF4FF;
+}
+.texto button a:hover{
+    color: black;
+}
+
